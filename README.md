@@ -4,5 +4,5 @@
 
 
 
-[![Build Status](https://travis-ci.com/EmptyFiles3/CCDU-Career-Events-Tracking-and-Placements..svg?branch=master
-)](https://travis-ci.com/EmptyFiles3/CCDU-Career-Events-Tracking-and-Placements..svg?branch=master)
+
+[![Build Status](https://travis-ci.com/EmptyFiles3/CCDU-Career-Events-Tracking-and-Placements..svg?branch=master)
