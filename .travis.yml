@@ -1,4 +1,8 @@
 language: java
+
+jdk:
+-openjdk11
+
 sudo: false # faster builds
 
 script: "mvn cobertura:cobertura"
