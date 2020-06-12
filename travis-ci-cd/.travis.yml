@@ -4,14 +4,16 @@ jdk:
 
 -openjdk8
 
-env:
- - MAVEN_VERSION=3.2.5
+ 
+ before_install: 
+ - chmod +x mvnw 
 
 install:
-- "mvn -N io.takari:maven:wrapper -Dmaven=${MAVEN_VERSION}"
+./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+#- "mvn -N io.takari:maven:wrapper -Dmaven=${MAVEN_VERSION}"
 
 script:
-./mvnw clean install
+./mvnw test -B
 
 notification:
 email: 1830912@students.wits.ac.za 
