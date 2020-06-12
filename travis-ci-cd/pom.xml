@@ -12,8 +12,6 @@
   <name>travis-ci-cd </name>
  <url>http://cobertura.github.io/cobertura/</url>
 
-  
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
